@@ -1,0 +1,41 @@
+# created by virtualenv automatically
+# --- Systemowe ---
+.DS_Store
+Thumbs.db
+
+# --- Edytory i IDE ---
+.vscode/
+.idea/
+*.swp
+*.sublime-project
+
+# --- Zależności (NAJWAŻNIEJSZE) ---
+node_modules/
+venv/
+env/
+.venv/
+bin/
+obj/
+vendor/
+
+# --- Pliki tymczasowe i logi ---
+*.log
+logs/
+*.tmp
+.cache/
+
+# --- Kompilacja i buildy ---
+dist/
+build/
+out/
+*.exe
+*.dll
+*.so
+
+# --- Bezpieczeństwo (NIGDY nie przesyłaj haseł!) ---
+.env
+.env.local
+.streamlit/
+*.pem
+*.key
+
